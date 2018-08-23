@@ -1,4 +1,5 @@
 const element = document.getElementById('dodger')
+element.style.left = '10px'
 
 document.addEventListener('keydown', (event) => {
   if (event.which === 37) {
